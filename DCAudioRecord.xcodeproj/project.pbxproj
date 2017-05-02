@@ -1,0 +1,420 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B60E48701C4964A40075F00C /* lame.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B60E486F1C4964A40075F00C /* lame.framework */; };
+		B69F031A1E4BA3A2002F7FEC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B69F03171E4BA3A2002F7FEC /* AppDelegate.m */; };
+		B69F031B1E4BA3A2002F7FEC /* DemoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B69F03191E4BA3A2002F7FEC /* DemoViewController.m */; };
+		B69F03221E4BA3AD002F7FEC /* JZMp3EncodeOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = B69F031D1E4BA3AD002F7FEC /* JZMp3EncodeOperation.m */; };
+		B69F03231E4BA3AD002F7FEC /* JZMp3RecordingClient.m in Sources */ = {isa = PBXBuildFile; fileRef = B69F031F1E4BA3AD002F7FEC /* JZMp3RecordingClient.m */; };
+		B69F03241E4BA3AD002F7FEC /* JZRecorder.m in Sources */ = {isa = PBXBuildFile; fileRef = B69F03211E4BA3AD002F7FEC /* JZRecorder.m */; };
+		B69F03261E4BA3C1002F7FEC /* DCAudioRecord.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B69F03251E4BA3C1002F7FEC /* DCAudioRecord.xcassets */; };
+		B69F032D1E4BADE3002F7FEC /* DCAudioRecordAnimationController.m in Sources */ = {isa = PBXBuildFile; fileRef = B69F03281E4BADE3002F7FEC /* DCAudioRecordAnimationController.m */; };
+		B69F032E1E4BADE3002F7FEC /* DCAudioRecordCircleButton.m in Sources */ = {isa = PBXBuildFile; fileRef = B69F032A1E4BADE3002F7FEC /* DCAudioRecordCircleButton.m */; };
+		B69F032F1E4BADE3002F7FEC /* DCAudioRecordViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B69F032C1E4BADE3002F7FEC /* DCAudioRecordViewController.m */; };
+		B69F03321E4BADFE002F7FEC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B69F03301E4BADFE002F7FEC /* LaunchScreen.storyboard */; };
+		B69F03351E4BAE02002F7FEC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B69F03331E4BAE02002F7FEC /* Main.storyboard */; };
+		B69F03371E4BAE0B002F7FEC /* bg.png in Resources */ = {isa = PBXBuildFile; fileRef = B69F03361E4BAE0B002F7FEC /* bg.png */; };
+		B69F03391E4BAE11002F7FEC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B69F03381E4BAE11002F7FEC /* Assets.xcassets */; };
+		B69F033D1E4BAE18002F7FEC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B69F033B1E4BAE18002F7FEC /* main.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		B60E486F1C4964A40075F00C /* lame.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = lame.framework; sourceTree = "<group>"; };
+		B69F03161E4BA3A2002F7FEC /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = DCAudioRecord/AppDelegate.h; sourceTree = SOURCE_ROOT; };
+		B69F03171E4BA3A2002F7FEC /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = DCAudioRecord/AppDelegate.m; sourceTree = SOURCE_ROOT; };
+		B69F03181E4BA3A2002F7FEC /* DemoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DemoViewController.h; path = DCAudioRecord/DemoViewController.h; sourceTree = SOURCE_ROOT; };
+		B69F03191E4BA3A2002F7FEC /* DemoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DemoViewController.m; path = DCAudioRecord/DemoViewController.m; sourceTree = SOURCE_ROOT; };
+		B69F031C1E4BA3AD002F7FEC /* JZMp3EncodeOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = JZMp3EncodeOperation.h; path = DCAudioRecord/JZRecorder/JZMp3EncodeOperation.h; sourceTree = SOURCE_ROOT; };
+		B69F031D1E4BA3AD002F7FEC /* JZMp3EncodeOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = JZMp3EncodeOperation.m; path = DCAudioRecord/JZRecorder/JZMp3EncodeOperation.m; sourceTree = SOURCE_ROOT; };
+		B69F031E1E4BA3AD002F7FEC /* JZMp3RecordingClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = JZMp3RecordingClient.h; path = DCAudioRecord/JZRecorder/JZMp3RecordingClient.h; sourceTree = SOURCE_ROOT; };
+		B69F031F1E4BA3AD002F7FEC /* JZMp3RecordingClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = JZMp3RecordingClient.m; path = DCAudioRecord/JZRecorder/JZMp3RecordingClient.m; sourceTree = SOURCE_ROOT; };
+		B69F03201E4BA3AD002F7FEC /* JZRecorder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = JZRecorder.h; path = DCAudioRecord/JZRecorder/JZRecorder.h; sourceTree = SOURCE_ROOT; };
+		B69F03211E4BA3AD002F7FEC /* JZRecorder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = JZRecorder.m; path = DCAudioRecord/JZRecorder/JZRecorder.m; sourceTree = SOURCE_ROOT; };
+		B69F03251E4BA3C1002F7FEC /* DCAudioRecord.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = DCAudioRecord.xcassets; path = DCAudioRecord/DCAudioRecord.xcassets; sourceTree = SOURCE_ROOT; };
+		B69F03271E4BADE3002F7FEC /* DCAudioRecordAnimationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DCAudioRecordAnimationController.h; path = DCAudioRecord/DCAudioRecordAnimationController.h; sourceTree = SOURCE_ROOT; };
+		B69F03281E4BADE3002F7FEC /* DCAudioRecordAnimationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DCAudioRecordAnimationController.m; path = DCAudioRecord/DCAudioRecordAnimationController.m; sourceTree = SOURCE_ROOT; };
+		B69F03291E4BADE3002F7FEC /* DCAudioRecordCircleButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DCAudioRecordCircleButton.h; path = DCAudioRecord/DCAudioRecordCircleButton.h; sourceTree = SOURCE_ROOT; };
+		B69F032A1E4BADE3002F7FEC /* DCAudioRecordCircleButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DCAudioRecordCircleButton.m; path = DCAudioRecord/DCAudioRecordCircleButton.m; sourceTree = SOURCE_ROOT; };
+		B69F032B1E4BADE3002F7FEC /* DCAudioRecordViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DCAudioRecordViewController.h; path = DCAudioRecord/DCAudioRecordViewController.h; sourceTree = SOURCE_ROOT; };
+		B69F032C1E4BADE3002F7FEC /* DCAudioRecordViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DCAudioRecordViewController.m; path = DCAudioRecord/DCAudioRecordViewController.m; sourceTree = SOURCE_ROOT; };
+		B69F03311E4BADFE002F7FEC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = DCAudioRecord/Base.lproj/LaunchScreen.storyboard; sourceTree = SOURCE_ROOT; };
+		B69F03341E4BAE02002F7FEC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = DCAudioRecord/Base.lproj/Main.storyboard; sourceTree = SOURCE_ROOT; };
+		B69F03361E4BAE0B002F7FEC /* bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = bg.png; path = DCAudioRecord/bg.png; sourceTree = SOURCE_ROOT; };
+		B69F03381E4BAE11002F7FEC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = DCAudioRecord/Assets.xcassets; sourceTree = SOURCE_ROOT; };
+		B69F033A1E4BAE18002F7FEC /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = DCAudioRecord/Info.plist; sourceTree = SOURCE_ROOT; };
+		B69F033B1E4BAE18002F7FEC /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = DCAudioRecord/main.m; sourceTree = SOURCE_ROOT; };
+		B6E94FF21C481DB7006A3A67 /* DCAudioRecord.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DCAudioRecord.app; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B6E94FEF1C481DB7006A3A67 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B60E48701C4964A40075F00C /* lame.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B60E48641C49638D0075F00C /* JZRecorder */ = {
+			isa = PBXGroup;
+			children = (
+				B69F031C1E4BA3AD002F7FEC /* JZMp3EncodeOperation.h */,
+				B69F031D1E4BA3AD002F7FEC /* JZMp3EncodeOperation.m */,
+				B69F031E1E4BA3AD002F7FEC /* JZMp3RecordingClient.h */,
+				B69F031F1E4BA3AD002F7FEC /* JZMp3RecordingClient.m */,
+				B69F03201E4BA3AD002F7FEC /* JZRecorder.h */,
+				B69F03211E4BA3AD002F7FEC /* JZRecorder.m */,
+			);
+			path = JZRecorder;
+			sourceTree = "<group>";
+		};
+		B60E486E1C4964A40075F00C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B60E486F1C4964A40075F00C /* lame.framework */,
+			);
+			path = Frameworks;
+			sourceTree = SOURCE_ROOT;
+		};
+		B6E94FE91C481DB7006A3A67 = {
+			isa = PBXGroup;
+			children = (
+				B6E94FF41C481DB7006A3A67 /* DCAudioRecord */,
+				B6E94FF31C481DB7006A3A67 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B6E94FF31C481DB7006A3A67 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B6E94FF21C481DB7006A3A67 /* DCAudioRecord.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B6E94FF41C481DB7006A3A67 /* DCAudioRecord */ = {
+			isa = PBXGroup;
+			children = (
+				B69F03161E4BA3A2002F7FEC /* AppDelegate.h */,
+				B69F03171E4BA3A2002F7FEC /* AppDelegate.m */,
+				B69F03181E4BA3A2002F7FEC /* DemoViewController.h */,
+				B69F03191E4BA3A2002F7FEC /* DemoViewController.m */,
+				B6E9500E1C481E5D006A3A67 /* DCAudioRecord */,
+				B6E9500C1C481E1F006A3A67 /* Storyboards */,
+				B6E94FF51C481DB7006A3A67 /* Supporting Files */,
+				B60E486E1C4964A40075F00C /* Frameworks */,
+			);
+			name = DCAudioRecord;
+			path = GGAAudioPicker;
+			sourceTree = "<group>";
+		};
+		B6E94FF51C481DB7006A3A67 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B6E9500D1C481E31006A3A67 /* Images */,
+				B69F033B1E4BAE18002F7FEC /* main.m */,
+				B69F033A1E4BAE18002F7FEC /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B6E9500C1C481E1F006A3A67 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				B69F03331E4BAE02002F7FEC /* Main.storyboard */,
+				B69F03301E4BADFE002F7FEC /* LaunchScreen.storyboard */,
+			);
+			name = Storyboards;
+			sourceTree = "<group>";
+		};
+		B6E9500D1C481E31006A3A67 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				B69F03361E4BAE0B002F7FEC /* bg.png */,
+				B69F03381E4BAE11002F7FEC /* Assets.xcassets */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+		B6E9500E1C481E5D006A3A67 /* DCAudioRecord */ = {
+			isa = PBXGroup;
+			children = (
+				B60E48641C49638D0075F00C /* JZRecorder */,
+				B69F032B1E4BADE3002F7FEC /* DCAudioRecordViewController.h */,
+				B69F032C1E4BADE3002F7FEC /* DCAudioRecordViewController.m */,
+				B69F03271E4BADE3002F7FEC /* DCAudioRecordAnimationController.h */,
+				B69F03281E4BADE3002F7FEC /* DCAudioRecordAnimationController.m */,
+				B69F03291E4BADE3002F7FEC /* DCAudioRecordCircleButton.h */,
+				B69F032A1E4BADE3002F7FEC /* DCAudioRecordCircleButton.m */,
+				B69F03251E4BA3C1002F7FEC /* DCAudioRecord.xcassets */,
+			);
+			name = DCAudioRecord;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B6E94FF11C481DB7006A3A67 /* DCAudioRecord */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B6E950091C481DB7006A3A67 /* Build configuration list for PBXNativeTarget "DCAudioRecord" */;
+			buildPhases = (
+				B6E94FEE1C481DB7006A3A67 /* Sources */,
+				B6E94FEF1C481DB7006A3A67 /* Frameworks */,
+				B6E94FF01C481DB7006A3A67 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DCAudioRecord;
+			productName = GGAAudioPicker;
+			productReference = B6E94FF21C481DB7006A3A67 /* DCAudioRecord.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B6E94FEA1C481DB7006A3A67 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = DC;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Derek Carter";
+				TargetAttributes = {
+					B6E94FF11C481DB7006A3A67 = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = 45NSQ33RLL;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = B6E94FED1C481DB7006A3A67 /* Build configuration list for PBXProject "DCAudioRecord" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B6E94FE91C481DB7006A3A67;
+			productRefGroup = B6E94FF31C481DB7006A3A67 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B6E94FF11C481DB7006A3A67 /* DCAudioRecord */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B6E94FF01C481DB7006A3A67 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B69F03371E4BAE0B002F7FEC /* bg.png in Resources */,
+				B69F03351E4BAE02002F7FEC /* Main.storyboard in Resources */,
+				B69F03321E4BADFE002F7FEC /* LaunchScreen.storyboard in Resources */,
+				B69F03391E4BAE11002F7FEC /* Assets.xcassets in Resources */,
+				B69F03261E4BA3C1002F7FEC /* DCAudioRecord.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B6E94FEE1C481DB7006A3A67 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B69F033D1E4BAE18002F7FEC /* main.m in Sources */,
+				B69F03221E4BA3AD002F7FEC /* JZMp3EncodeOperation.m in Sources */,
+				B69F031A1E4BA3A2002F7FEC /* AppDelegate.m in Sources */,
+				B69F03241E4BA3AD002F7FEC /* JZRecorder.m in Sources */,
+				B69F032E1E4BADE3002F7FEC /* DCAudioRecordCircleButton.m in Sources */,
+				B69F032D1E4BADE3002F7FEC /* DCAudioRecordAnimationController.m in Sources */,
+				B69F031B1E4BA3A2002F7FEC /* DemoViewController.m in Sources */,
+				B69F03231E4BA3AD002F7FEC /* JZMp3RecordingClient.m in Sources */,
+				B69F032F1E4BADE3002F7FEC /* DCAudioRecordViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		B69F03301E4BADFE002F7FEC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B69F03311E4BADFE002F7FEC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		B69F03331E4BAE02002F7FEC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B69F03341E4BAE02002F7FEC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B6E950071C481DB7006A3A67 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B6E950081C481DB7006A3A67 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B6E9500A1C481DB7006A3A67 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = 45NSQ33RLL;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Frameworks",
+				);
+				INFOPLIST_FILE = DCAudioRecord/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.derek.DCAudioRecord;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+			};
+			name = Debug;
+		};
+		B6E9500B1C481DB7006A3A67 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = 45NSQ33RLL;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Frameworks",
+				);
+				INFOPLIST_FILE = DCAudioRecord/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.derek.DCAudioRecord;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B6E94FED1C481DB7006A3A67 /* Build configuration list for PBXProject "DCAudioRecord" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B6E950071C481DB7006A3A67 /* Debug */,
+				B6E950081C481DB7006A3A67 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B6E950091C481DB7006A3A67 /* Build configuration list for PBXNativeTarget "DCAudioRecord" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B6E9500A1C481DB7006A3A67 /* Debug */,
+				B6E9500B1C481DB7006A3A67 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B6E94FEA1C481DB7006A3A67 /* Project object */;
+}
